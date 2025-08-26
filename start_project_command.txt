@@ -1,7 +1,0 @@
-
-To run the project: 👇👇👇👇
-
-mvn -q -DskipTests clean package                👈👈👈👈👈
-java -cp "target\classes" com.staqueue.App      👈👈👈👈👈
-
-this above ☝️☝️☝️☝️ 2 commands will build and run the project. 
