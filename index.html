@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>AlgoNova (Swing) in Browser</title>
+  <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
+  <style>
+    html, body { margin:0; height:100%; background:#18181a; }
+    #boot { position:absolute; inset:0; display:grid; place-items:center; color:#e5e7eb; font:14px ui-sans-serif,system-ui; }
+  </style>
+</head>
+<body>
+  <div id="boot">Loading Java…</div>
+  <script>
+    (async function () {
+      await cheerpjInit();
+      cheerpjCreateDisplay(1280, 800);
+      await cheerpjRunJar("/app/staqueue-1.0-SNAPSHOT.jar");
+    })();
+  </script>
+</body>
+</html>
