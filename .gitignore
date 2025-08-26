@@ -22,7 +22,7 @@ index.html
 
 # Ignore assets only if not used in README
 # (Remove this if you use images in README)
-/assets/
+# /assets/
 
 # Misc
 start_project_command.txt
