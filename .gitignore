@@ -1,0 +1,28 @@
+# Maven build output
+/target/
+
+# Logs
+*.log
+
+# IntelliJ / Eclipse / VSCode project files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.class
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Netlify deploy artifacts (optional, only if you re-export)
+*.jar
+index.html
+
+# Ignore assets only if not used in README
+# (Remove this if you use images in README)
+/assets/
+
+# Misc
+start_project_command.txt
